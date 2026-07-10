@@ -13,7 +13,7 @@
 }
 
 .common-btn {
-  background-color: #1D4ED8;
+  background-color: #1d4ed8;
   color: white;
   border: none;
 }
@@ -50,3 +50,63 @@
 }
 
 /* Navbar Styles End */
+
+/* Header Styles Start */
+
+header {
+  background-image:
+    linear-gradient(to right, black 0%, transparent 100%),
+    url("./assets/banner.jpg");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 380px;
+}
+
+/* header top */
+
+.header-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  max-width: 700px;
+}
+
+.header-title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.header-description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* header bottom */
+
+.header-btn {
+  padding: 20px 45px;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Header Styles End */
