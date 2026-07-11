@@ -150,7 +150,7 @@ header {
   text-align: left;
 }
 .category {
-  color: royalblue;
+  color: #2563EB;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: bold;
@@ -162,7 +162,7 @@ header {
 }
 
 .job {
-  color: gray;
+  color: #575757;
   font-size: 15px;
 }
 
