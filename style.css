@@ -3,7 +3,12 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: "Inter", sans-serif;
+  background-color: #fff;
 }
 
 /* Common Styles */
@@ -167,3 +172,128 @@ header {
 }
 
 /* Speakers Styles End */
+
+/* Pricing Styles Start */
+
+.pricing-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.pricing-title h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.pricing-title p {
+  color: #575757;
+  font-size: 13px;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  align-items: stretch;
+}
+
+.pricing-box {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.standard, .team {
+  border: 1px solid #E5E7EB;
+}
+
+.price-p1 {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #888888;
+}
+
+.price h3 {
+  font-size: 40px;
+  margin: 10px 0 3px 0;
+}
+
+.price-p2 {
+  color: #888888;
+}
+
+hr {
+  margin: 25px 0;
+  border: none;
+  border-top: 1px solid #E5E7EB;
+}
+
+.pricing-box ul {
+  flex: 1;
+}
+
+.pricing-box ul li {
+  margin-bottom: 18px;
+  color: #333333;
+  font-size: 16px;
+}
+
+.pricing-box ul li::marker {
+  color: #2563EB;
+}
+
+
+.pro {
+  background-color: #0D1B2A;
+  color: white;
+  border: 1px solid #0D1B2A;
+}
+
+.price-p1-pro {
+  color: #93C5FD;
+}
+
+.price-p2-pro {
+  color: #888888;
+}
+
+.pro ul li {
+  color: #eee;
+}
+
+.pro hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* button styles */
+
+.pricing-box button {
+  margin-top: 25px;
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.standard button {
+  background-color: #fff;
+  color: #2563EB;
+  border: 2px solid #2563EB;
+}
+
+
+.pro button {
+  background-color: #2563EB;
+  border: none;
+  color: white;
+}
+
+.team button {
+  border: 2px solid #0D1B2A;
+  background-color: white;
+}
+
+/* Pricing Styles End */
