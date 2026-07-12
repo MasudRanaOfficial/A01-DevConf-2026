@@ -382,3 +382,31 @@ hr {
 }
 
 /* Schedule Styles End */
+
+/* Footer Styles Start */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0D1B2A;
+  color: #888888;
+  padding: 40px;
+}
+
+.footer-left img {
+  margin-bottom: 10px;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-right p a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Footer Styles End */
