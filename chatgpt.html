@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code by ChatGPT</title>
+
+  <style>
+
+    /* Reset Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+}
+
+/* Common Styles */
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.common-btn {
+  background-color: #1d4ed8;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+    /* Schedule Styles Start */
+
+.schedule-root {
+  padding: 100px 0;
+}
+
+.schedule-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.schedule-title p {
+  color: #2563EB;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.schedule-title h2 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.schedule-title span {
+  color: #575757;
+  font-size: 16px;
+}
+
+.schedule-cards {
+  display: flex;
+  gap: 25px;
+}
+
+.schedule-card {
+  flex: 1;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+}
+
+.schedule-header {
+  padding: 20px;
+  background: #F8FAFC;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.schedule-header h3 {
+  font-size: 26px;
+  margin-bottom: 6px;
+}
+
+.schedule-header p {
+  color: #2563EB;
+  font-size: 14px;
+}
+
+.schedule-item {
+  display: flex;
+  gap: 18px;
+  padding: 20px;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.schedule-item:last-child {
+  border-bottom: none;
+}
+
+.schedule-item span {
+  width: 80px;
+  color: #2563EB;
+  font-weight: 600;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.schedule-item h4 {
+  margin-bottom: 6px;
+  font-size: 18px;
+}
+
+.schedule-item p {
+  color: #575757;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Schedule Styles End */
+  </style>
+</head>
+<body>
+  <!-- Schedule Section Start -->
+
+<section class="container schedule-root">
+  <div class="schedule-title">
+    <p>Conference Schedule</p>
+    <h2>3 Days. Endless Learning.</h2>
+    <span>
+      Explore three days of talks, workshops, and networking opportunities.
+    </span>
+  </div>
+
+  <div class="schedule-cards">
+
+    <!-- Day 1 -->
+
+    <div class="schedule-card">
+      <div class="schedule-header">
+        <h3>Day 1</h3>
+        <p>October 15, 2026</p>
+      </div>
+
+      <div class="schedule-item">
+        <span>09:00 AM</span>
+        <div>
+          <h4>Registration</h4>
+          <p>Check in and collect your badge.</p>
+        </div>
+      </div>
+
+      <div class="schedule-item">
+        <span>10:00 AM</span>
+        <div>
+          <h4>Opening Keynote</h4>
+          <p>Welcome to DevConf 2026.</p>
+        </div>
+      </div>
+
+      <div class="schedule-item">
+        <span>01:00 PM</span>
+        <div>
+          <h4>Networking Lunch</h4>
+          <p>Meet speakers and developers.</p>
+        </div>
+      </div>
+
+      <div class="schedule-item">
+        <span>03:00 PM</span>
+        <div>
+          <h4>AI Workshop</h4>
+          <p>Hands-on AI session.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Day 2 -->
+
+    <div class="schedule-card">
+      <div class="schedule-header">
+        <h3>Day 2</h3>
+        <p>October 16, 2026</p>
+      </div>
+
+      <div class="schedule-item">
+        <span>09:30 AM</span>
+        <div>
+          <h4>Cloud Workshop</h4>
+          <p>Modern cloud architecture.</p>
+        </div>
+      </div>
+
+      <div class="schedule-item">
+        <span>11:00 AM</span>
+        <div>
+          <h4>Panel Discussion</h4>
+          <p>Industry experts share ideas.</p>
+        </div>
+      </div>
+
+      <div class="schedule-item">
+        <span>01:00 PM</span>
+        <div>
+          <h4>Networking Lunch</h4>
+          <p>Connect with attendees.</p>
+        </div>
+      </div>
+
+      <div class="schedule-item">
+        <span>04:00 PM</span>
+        <div>
+          <h4>Hackathon Kickoff</h4>
+          <p>Build your next project.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Day 3 -->
+
+    <div class="schedule-card">
+      <div class="schedule-header">
+        <h3>Day 3</h3>
+        <p>October 17, 2026</p>
+      </div>
+
+      <div class="schedule-item">
+        <span>09:30 AM</span>
+        <div>
+          <h4>Career Fair</h4>
+          <p>Meet hiring companies.</p>
+        </div>
+      </div>
+
+      <div class="schedule-item">
+        <span>11:00 AM</span>
+        <div>
+          <h4>Tech Talks</h4>
+          <p>Latest developer trends.</p>
+        </div>
+      </div>
+
+      <div class="schedule-item">
+        <span>02:00 PM</span>
+        <div>
+          <h4>Hackathon Finals</h4>
+          <p>Watch the finalists compete.</p>
+        </div>
+      </div>
+
+      <div class="schedule-item">
+        <span>04:30 PM</span>
+        <div>
+          <h4>Closing Keynote</h4>
+          <p>Conference wrap-up.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Schedule Section End -->
+</body>
+</html>
