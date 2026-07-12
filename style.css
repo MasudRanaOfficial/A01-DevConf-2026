@@ -78,9 +78,9 @@ header {
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 380px;
+  justify-content: space-between;
+  height: 500px;
 }
 
 /* header top */
@@ -88,11 +88,10 @@ header {
 .header-top {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 20px;
   max-width: 700px;
+  gap: 20px;
 }
 
 .header-title {
@@ -114,6 +113,7 @@ header {
   border-radius: 6px;
   font-size: 20px;
   font-weight: 600;
+  margin: 0;
 }
 
 /* Header Styles End */
@@ -276,6 +276,7 @@ hr {
   border-radius: 8px;
   font-weight: 600;
   font-size: 13px;
+  cursor: pointer;
 }
 
 .standard button {
@@ -287,8 +288,8 @@ hr {
 
 .pro button {
   background-color: #2563EB;
-  border: none;
   color: white;
+  border: 2px solid #2563EB;
 }
 
 .team button {
