@@ -130,7 +130,7 @@ header {
   margin-bottom: 50px;
 }
 
-.spaekers-cards {
+.speakers-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
@@ -200,7 +200,7 @@ header {
 .pricing-box {
   display: flex;
   flex-direction: column;
-  width: 360px;
+  flex: 1;
   padding: 30px;
   border-radius: 12px;
 }
@@ -386,27 +386,67 @@ hr {
 /* Footer Styles Start */
 
 footer {
+  background-color: #0d1b2a;
+  padding: 70px 0 30px;
+}
+
+.footer-main {
+  padding: 0 40px;
+}
+.footer-top {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: #0D1B2A;
-  color: #888888;
-  padding: 40px;
+  align-items: flex-start;
 }
 
-.footer-left img {
-  margin-bottom: 10px;
+.footer-logo img {
+  width: 170px;
+  margin-bottom: 25px;
 }
 
-.footer-right {
+.footer-logo p {
+  color: #B7BDC8;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.footer-social h3 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.social-icons {
   display: flex;
-  align-items: center;
-  gap: 20px;
+  gap: 18px;
 }
 
-.footer-right p a {
+.social-icons a {
+  width: 60px;
+  height: 60px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
-  color: inherit;
+  background-color: #e5e7eb;
+}
+
+.social-icons img {
+  width: 40px;
+}
+
+footer hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  margin: 60px 0 35px;
+}
+
+.copyright {
+  text-align: center;
+  color: #B7BDC8;
+  font-size: 18px;
 }
 
 /* Footer Styles End */
